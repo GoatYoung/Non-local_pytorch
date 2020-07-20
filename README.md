@@ -12,7 +12,7 @@
 
 ## Environment
 - python 3.7.3
-- pytorch 1.2.0
+- pytorch 1.4.0
 - opencv 3.4.2
 
 ## Visualization
@@ -34,7 +34,7 @@
     from lib.non_local_dot_product import NONLocalBlock2D
 2. Run **demo_MNIST_train.py** with one GPU or multi GPU to train the Network. Then the weights will be save in **weights/**.
     ```
-    CUDA_VISIBLE_DEVICES=0,1 python demo_MNIST.py
+    CUDA_VISIBLE_DEVICES=0,1 python demo_MNIST_train.py
 
 3. Run **nl_map_save.py** to save NL_MAP of one test sample in **nl_map_vis**.
     ```
