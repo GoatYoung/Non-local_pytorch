@@ -66,6 +66,7 @@ to **Non-Local_pytorch_0.3.1/**.
 
 8. In order to visualize NL_MAP, some code have been slightly modified. The code **nl_map_save.py** is added to save NL_MAP (two Non-local Layer) of one test sample. The code **Non-local_pytorch/nl_map_vis.py** is added to visualize NL_MAP. Besieds, the code is support pytorch 1.2.0.
 
+9. The code also works well in **pytorch 1.4.0**.
 
 ## Todo
 - Experiments on Charades dataset.
