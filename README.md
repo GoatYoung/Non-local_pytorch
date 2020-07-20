@@ -11,9 +11,9 @@
 - If there is something wrong in my code, please contact me, thanks!
 
 ## Environment
-- python 3.7.3
-- pytorch 1.4.0
-- opencv 3.4.2
+- python 3.7.7
+- pytorch 1.4.0 (>=1.2.0)
+- opencv 4.2.0.34 (others work too)
 
 ## Visualization
 1. In the **first** Non-local Layer.
